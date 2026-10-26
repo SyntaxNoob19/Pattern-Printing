@@ -1,6 +1,6 @@
 ## 01. Christmas Tree
 
-![Christmas Tree](screenshorts/Screenshot 2026-10-26 223206.png)
+![Christmas Tree](Pattern-Printing/screenshorts/Screenshot 2026-10-26 223206.png)
 
 **Logic:**
 - Created 3 pyramids of increasing heights using separate methods.
