@@ -1,6 +1,7 @@
 ## 01. Christmas Tree
 
-![Christmas Tree Pattern](screenshots/christmas-tree.png)
+![Christmas Tree Pattern](./screenshots/christmas-tree.png)
+
 **Logic:**
 - Created 3 pyramids of increasing heights using separate methods.
 - Added extra leading spaces to align the pyramid sections.
