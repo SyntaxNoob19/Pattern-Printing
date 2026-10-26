@@ -4,10 +4,10 @@
 <table>
   <tr>
     <td align="center">
-      <img src="./screenshorts/christmas-tree.png" width="400" height="300" alt="Christmas Tree Pattern">
+      <img src="./screenshorts/christmas-tree.png" width="300" height="500" alt="Christmas Tree Pattern">
     </td>
     <td align="center">
-      <img src="./screenshorts/image.png" width="400" height="300" alt="Logic">
+      <img src="./screenshorts/image.png" width="300" height="500" alt="Logic">
     </td>
   </tr>
 </table>
