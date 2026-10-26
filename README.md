@@ -20,9 +20,9 @@
         <li>Trunk created using fixed spaces and stars.</li>
       </ul>
 
-      Dry Run:</strong> 1, 3, 5, 7, 9...
-      Complexity:</strong> Time O(n²), Auxiliary Space O(1).
-      Key takeaway:</strong> Combine patterns and align them with spaces.
+      Dry Run: 1, 3, 5, 7, 9...
+      Complexity: Time O(n²), Auxiliary Space O(1).
+      Key takeaway: Combine patterns and align them with spaces.
     
   </tr>
 </table>
