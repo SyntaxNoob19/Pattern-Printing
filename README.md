@@ -1,7 +1,6 @@
 ## 01. Christmas Tree
 
 ![Christmas Tree Pattern](screenshots/Screenshot%202026-10-26%20223206.png)
-
 **Logic:**
 - Created 3 pyramids of increasing heights using separate methods.
 - Added extra leading spaces to align the pyramid sections.
