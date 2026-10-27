@@ -57,4 +57,32 @@
   </tr>
 </table>
 
+## 03. Diya Pattern
 
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/diya.png" width="250" alt="Diya Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/diya-logic.png" width="250" alt="Diya Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into 3 parts.</li>
+        <li>Combined the left section, diamond, and inverted triangle.</li>
+        <li>Used spaces to align all parts.</li>
+      </ul>
+      <b>Formulas:</b>
+      <ul>
+        <li>Spaces: <code>n - i</code></li>
+        <li>Stars: <code>2 * i - 1</code></li>
+      </ul>
+      
+      Dry Run: Stars: 1, 3, 5, 7... | Spaces decrease as rows increase.
+      Complexity: Time O(n²), Auxiliary Space O(1).
+      Key takeaway: Combine smaller patterns to create one design.
+    
+  </tr>
+</table>
