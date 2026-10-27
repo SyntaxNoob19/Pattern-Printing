@@ -28,4 +28,33 @@
 </table>
 
 
+## 02. Heart Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/heart.png"
+           width="250" alt="Heart Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/heart-logic.png"
+           width="250" alt="Heart Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Used nested loops to print spaces and stars.</li>
+        <li>Created the top using 2 upright triangles.</li>
+        <li>Decreased the middle gap on each row.</li>
+        <li>Used 1 inverted triangle for the bottom.</li>
+        <li>Star formula: <code>2 * i - 1</code>.</li>
+      </ul>
+
+      Dry Run: 1, 3, 5... and 13, 11, 9...
+      Complexity: Time O(n²), Auxiliary Space O(1).
+      Key takeaway: Combine 3 triangles to create a heart.
+    
+  </tr>
+</table>
+
 
