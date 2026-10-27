@@ -7,7 +7,7 @@
            width="250" alt="Christmas Tree Pattern">
     </td>
     <td align="center" valign="top">
-      <img src="./screenshorts/image.png"
+      <img src="./screenshorts/tree-logic.png"
            width="250" alt="Christmas Tree Logic">
     </td>
     <td valign="top">
