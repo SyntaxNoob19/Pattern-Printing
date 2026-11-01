@@ -86,3 +86,33 @@
     
   </tr>
 </table>
+
+## 04. Hollow X Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/hollow-x.png" width="250" alt="Hollow X Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/hollow-x-logic.png" width="250" alt="Hollow X Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the X into 2 hollow triangles.</li>
+        <li>Combined their diagonal boundaries.</li>
+        <li>Used conditions to print stars and spaces.</li>
+        <li>Removed unwanted bottom corner stars.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Inverted: <code>j == i || j == i + 1</code></li>
+        <li>Upright: <code>j == n-1-i || j == n-2-i</code></li>
+      </ul>
+      <b>Dry Run:</b> Diagonal positions shift with each row.
+      <p><b>Complexity:</b> Time O(n²), Space O(1).</p>
+      <b>Key takeaway:</b> Combine two hollow triangles to create an X.
+    </td>
+  </tr>
+</table>
