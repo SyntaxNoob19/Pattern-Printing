@@ -4,11 +4,11 @@
   <tr>
     <td align="center" valign="top">
       <img src="./screenshorts/christmas-tree.png"
-           width="250" alt="Christmas Tree Pattern">
+           width="300" alt="Christmas Tree Pattern">
     </td>
     <td align="center" valign="top">
       <img src="./screenshorts/tree-logic.png"
-           width="250" alt="Christmas Tree Logic">
+           width="300" alt="Christmas Tree Logic">
     </td>
     <td valign="top">
       <h3>Logic</h3>
@@ -34,11 +34,11 @@
   <tr>
     <td align="center" valign="top">
       <img src="./screenshorts/heart.png"
-           width="250" alt="Heart Pattern">
+           width="300" alt="Heart Pattern">
     </td>
     <td align="center" valign="top">
       <img src="./screenshorts/heart-logic.png"
-           width="250" alt="Heart Pattern Logic">
+           width="300" alt="Heart Pattern Logic">
     </td>
     <td valign="top">
       <h3>Logic</h3>
@@ -62,10 +62,10 @@
 <table>
   <tr>
     <td align="center" valign="top">
-      <img src="./screenshorts/diya.png" width="250" alt="Diya Pattern">
+      <img src="./screenshorts/diya.png" width="300" alt="Diya Pattern">
     </td>
     <td align="center" valign="top">
-      <img src="./screenshorts/diya-logic.png" width="250" alt="Diya Logic">
+      <img src="./screenshorts/diya-logic.png" width="300" alt="Diya Logic">
     </td>
     <td valign="top">
       <h3>Logic</h3>
@@ -92,11 +92,11 @@
 <table>
   <tr>
     <td align="center" valign="top">
-      <img src="./screenshorts/hollow-x.png" width="250" alt="Hollow X Pattern">
+      <img src="./screenshorts/hollow-x.png" width="300" alt="Hollow X Pattern">
     </td>
     <td align="center" valign="top">
 <img src="./screenshorts/Hollow%20X%20Pattern%20Sketch%20Diagram.png"
-     width="300" alt="Hollow X Pattern Logic">
+     width="400" alt="Hollow X Pattern Logic">
     </td>
     <td valign="top">
       <h3>Logic</h3>
