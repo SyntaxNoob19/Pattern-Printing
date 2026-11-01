@@ -142,16 +142,23 @@
         <li>Combined them using the OR (<code>||</code>) operator.</li>
       </ul>
       <b>Formula:</b>
-      <ul>
-        <li>Midpoint: <code>n / 2</code></li>
-        <li>Shape 1: Left vertical <code>(j == 0 && i <= mid)<code> ,
-                     middle horizontal <code>( i == mid)<code>, 
-                     right vertical <code>(j == n-1 && i >= mid)<code>.</li>
-        <li>Shape 2: Top horizontal <code>(i == 0 && j >= mid)<code>,
-                     middle vertical <code>(j == mid)<code>, 
-                     bottom horizontal <code>(i == n-1 && j <= mid)<code>.
-        </li>
-      </ul>
+<ul>
+  <li><b>Midpoint:</b> <code>mid = n / 2</code></li>
+  <li><b>Shape 1 (L-shape):</b>
+    <ul>
+      <li>Left vertical: <code>j == 0 && i <= mid</code></li>
+      <li>Middle horizontal: <code>i == mid</code></li>
+      <li>Right vertical: <code>j == n-1 && i >= mid</code></li>
+    </ul>
+  </li>
+  <li><b>Shape 2 (S-shape):</b>
+    <ul>
+      <li>Top horizontal: <code>i == 0 && j >= mid</code></li>
+      <li>Middle vertical: <code>j == mid</code></li>
+      <li>Bottom horizontal: <code>i == n-1 && j <= mid</code></li>
+    </ul>
+  </li>
+</ul>
       
       Complexity: Time: O(n²), Auxiliary Space: O(1)
       Key takeaway:Combine two simple shapes using midpoint-based conditions.
