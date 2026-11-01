@@ -144,8 +144,13 @@
       <b>Formula:</b>
       <ul>
         <li>Midpoint: <code>n / 2</code></li>
-        <li>Shape 1: Left vertical(j == 0 && i <= mid), middle horizontal( i == mid), right vertical(j == n-1 && i >= mid).</li>
-        <li>Shape 2: Top horizontal(i == 0 && j >= mid), middle vertical(j == mid), bottom horizontal(i == n-1 && j <= mid).</li>
+        <li>Shape 1: Left vertical <code>(j == 0 && i <= mid)<code> ,
+                     middle horizontal <code>( i == mid)<code>, 
+                     right vertical <code>(j == n-1 && i >= mid)<code>.</li>
+        <li>Shape 2: Top horizontal <code>(i == 0 && j >= mid)<code>,
+                     middle vertical <code>(j == mid)<code>, 
+                     bottom horizontal <code>(i == n-1 && j <= mid)<code>.
+        </li>
       </ul>
       
       Complexity: Time: O(n²), Auxiliary Space: O(1)
