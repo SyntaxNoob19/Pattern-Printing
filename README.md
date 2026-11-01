@@ -111,9 +111,45 @@
         <li>Inverted: <code>j == i || j == i + 1</code></li>
         <li>Upright: <code>j == n-1-i || j == n-2-i</code></li>
       </ul>
-      <b>Dry Run:</b> Diagonal positions shift with each row.
-      <p><b>Complexity:</b> Time O(n²), Space O(1).</p>
-      <b>Key takeaway:</b> Combine two hollow triangles to create an X.
+      
+      Dry Run: Diagonal positions shift with each row.
+      Complexity: Time O(n²), Space O(1).
+      Key takeaway: Combine two hollow triangles to create an X.
+
+  </tr>
+</table>
+
+
+
+## 05. Swastik Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/swastik.png"
+           width="250" alt="Swastik Pattern">
     </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/swastik-logic.png"
+           width="300" alt="Swastik Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into 2 connected shapes.</li>
+        <li>Used the midpoint to identify the centre.</li>
+        <li>Defined separate conditions for both shapes.</li>
+        <li>Combined them using the OR (<code>||</code>) operator.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Midpoint: <code>n / 2</code></li>
+        <li>Shape 1: Left vertical(j == 0 && i <= mid), middle horizontal( i == mid), right vertical(j == n-1 && i >= mid).</li>
+        <li>Shape 2: Top horizontal(i == 0 && j >= mid), middle vertical(j == mid), bottom horizontal(i == n-1 && j <= mid).</li>
+      </ul>
+      
+      Complexity: Time: O(n²), Auxiliary Space: O(1)
+      Key takeaway:Combine two simple shapes using midpoint-based conditions.
+    
   </tr>
 </table>
