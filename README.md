@@ -95,7 +95,7 @@
       <img src="./screenshorts/hollow-x.png" width="250" alt="Hollow X Pattern">
     </td>
     <td align="center" valign="top">
-      <img src="./screenshorts/hollow-x-logic.png" width="250" alt="Hollow X Logic">
+      <img src="./screenshorts/hollow-x-logic.png" width="300" alt="Hollow X Pattern Sketch Diagram.png">
     </td>
     <td valign="top">
       <h3>Logic</h3>
