@@ -233,8 +233,7 @@
       </ul>
 
       Complexity:Time: O(n²),Auxiliary Space: O(1)
-      Key Takeaway: Use midpoint-based conditions to create a symmetrical explosion with directional rays.
-      
+      Key Takeaway: Use midpoint-based conditions for symmetrical explosion.
     
   </tr>
 </table>
