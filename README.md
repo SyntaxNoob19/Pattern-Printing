@@ -165,3 +165,41 @@
     
   </tr>
 </table>
+
+
+## 06. Aanar (Firecracker) Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/Aanar.png" width="250" alt="Aanar Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/anar-logic.png" width="300" alt="Aanar Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into 2 parts.</li>
+        <li>Part 1: Created 5 explosion rays using diagonals, vertical and horizontal lines.</li>
+        <li>Part 2: Created a filled inverted triangle for the cone.</li>
+        <li>Used the same midpoint to align both parts.</li>
+      </ul>
+        <b>Formula:
+        <li>Midpoint: <code>mid = n / 2</code></li>
+        <li>Vertical: <code>j == 2 * mid</code></li>
+        <li>Left diagonal: <code>j == 2 * i</code></li>
+        <li>Right diagonal: <code>j == 2 * (n - 1 - i)</code></li>
+        <li>Horizontal: <code>i == mid</code></li>
+        <li>Cone: <code>2 * mid - i <= j && j <= 2 * mid + i</code></li>
+      </ul>
+
+      <b>Complexity:</b>
+      <ul>
+        <li>Time: O(n²)</li>
+        <li>Auxiliary Space: O(1)</li>
+      </ul>
+      <b>Key Takeaway:</b> Combine directional rays and a filled triangle using midpoint-based conditions.
+    </td>
+  </tr>
+</table>
