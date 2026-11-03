@@ -200,3 +200,40 @@
     
   </tr>
 </table>
+
+
+## 07. Explosion Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/explosion.png"
+           width="250" alt="Explosion Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/explosion-logic.png"
+           width="300" alt="Explosion Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Used the midpoint to position the centre.</li>
+        <li>Created vertical, diagonal and horizontal rays.</li>
+        <li>Used separate conditions for each direction.</li>
+        <li>Printed a star at the centre.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Midpoint: <code>mid = n / 2</code></li>
+        <li>Centre: <code>i == mid && j == 2 * mid</code></li>
+        <li>Horizontal: <code>i == mid</code></li>
+        <li>Vertical: <code>j == 2 * mid</code></li>
+        <li>Left diagonal: <code>j == 2 * i</code></li>
+        <li>Right diagonal: <code>j == 2 * n - 2 - 2 * i</code></li>
+      </ul>
+
+      Complexity:Time: O(n²),Auxiliary Space: O(1)
+      Key Takeaway: Use midpoint-based conditions to create a symmetrical explosion with directional rays.
+    </td>
+  </tr>
+</table>
