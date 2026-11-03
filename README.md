@@ -87,7 +87,7 @@
   </tr>
 </table>
 
-## 04. Hollow X Pattern
+## 04.  Dandiya Pattern
 
 <table>
   <tr>
@@ -208,11 +208,11 @@
   <tr>
     <td align="center" valign="top">
       <img src="./screenshorts/explosion.png"
-           width="250" alt="Explosion Pattern">
+           width="400" alt="Explosion Pattern">
     </td>
     <td align="center" valign="top">
       <img src="./screenshorts/explosion-logic.png"
-           width="300" alt="Explosion Pattern Logic">
+           width="400" alt="Explosion Pattern Logic">
     </td>
     <td valign="top">
       <h3>Logic</h3>
@@ -234,6 +234,7 @@
 
       Complexity:Time: O(n²),Auxiliary Space: O(1)
       Key Takeaway: Use midpoint-based conditions to create a symmetrical explosion with directional rays.
-    </td>
+      
+    
   </tr>
 </table>
