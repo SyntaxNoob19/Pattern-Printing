@@ -257,7 +257,7 @@
         <li>Printed increasing stars on both sides.</li>
         <li>Used vertical bars to mark the inner boundaries of the wings.</li>
         <li>Adjusted the middle gap to create the butterfly shape.</li>
-        <li>Added an extra vertical line in the upper half to create the centre detail.</li>
+        <li>Extra vertical line in the upper half for centre detail.</li>
       </ul>
       <b>Formula:</b>
       <ul>
@@ -268,6 +268,6 @@
       </ul>
 
       Complexity:Time: O(n²), Auxiliary Space: O(1)   
-      Key Takeaway: Create symmetrical wings using stars and a changing middle gap.
+      Key Takeaway: Create symmetrical wings and a changing middle gap.
   </tr>
 </table>
