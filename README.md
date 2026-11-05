@@ -237,3 +237,37 @@
     
   </tr>
 </table>
+
+## 08. Butterfly Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/butterfly.png"
+           width="250" alt="Butterfly Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/butterfly-logic.png"
+           width="300" alt="Butterfly Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into upper and lower halves.</li>
+        <li>Printed increasing stars on both sides.</li>
+        <li>Used vertical bars to mark the inner boundaries of the wings.</li>
+        <li>Adjusted the middle gap to create the butterfly shape.</li>
+        <li>Added an extra vertical line in the upper half to create the centre detail.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Stars on each side: <code>i - 1</code></li>
+        <li>Middle gap: <code>2 * (n - i)</code></li>
+        <li>Lower half: <code>i = n - 1</code> to <code>1</code></li>
+        <li>Extra centre detail: <code>i == n - 1</code></li>
+      </ul>
+
+      Complexity:Time: O(n²), Auxiliary Space: O(1)   
+      Key Takeaway: Create symmetrical wings using stars and a changing middle gap.
+  </tr>
+</table>
