@@ -271,3 +271,35 @@
       Key Takeaway: Create symmetrical wings and a changing middle gap.
   </tr>
 </table>
+
+## 09. Square Rangoli Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/square-rangoli.png"
+           width="250" alt="Square Rangoli Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/square-rangoli-logic.png"
+           width="300" alt="Square Rangoli Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into 3 sections.</li>
+        <li>Created reusable <code>top_bottom()</code> and <code>center()</code> methods.</li>
+        <li>Printed four corner squares and one centre square.</li>
+        <li>Used spaces to maintain alignment.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Corner squares: <code>n × n</code></li>
+        <li>Centre square: <code>(n+2) × (n+2)</code></li>
+        <li>Middle spacing: <code>n + 2</code></li>
+      </ul>
+
+      Complexity:Time: O(n²) , Auxiliary Space: O(1)
+      Key Takeaway: Combining reusable square-printing methods 
+  </tr>
+</table>
