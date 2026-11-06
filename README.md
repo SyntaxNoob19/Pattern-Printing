@@ -272,6 +272,7 @@
   </tr>
 </table>
 
+
 ## 09. Square Rangoli Pattern
 
 <table>
@@ -300,6 +301,6 @@
       </ul>
 
       Complexity:Time: O(n²) , Auxiliary Space: O(1)
-      Key Takeaway: Combining reusable square-printing methods 
+      Key Takeaway: Combining reusable square-printing methods.
   </tr>
 </table>
