@@ -308,37 +308,38 @@
 
 
 
-
-  ## 11. Square Rangoli with Diamond Pattern
+## 11. Square Rangoli with Diamond
 
 <table>
   <tr>
-    <td align="center" valign="top">
+    <td align="center" valign="top" width="22%">
       <img src="./screenshorts/square-rangoli-diamond.png"
-           width="250" alt="Square Rangoli with Diamond Pattern">
+           width="180" alt="Square Rangoli with Diamond">
     </td>
-    <td align="center" valign="top">
+    <td align="center" valign="top" width="28%">
       <img src="./screenshorts/square-rangoli-diamond-logic.png"
-           width="300" alt="Square Rangoli with Diamond Pattern Logic">
+           width="220" alt="Square Rangoli Logic">
     </td>
-    <td valign="top">
+    <td valign="top" width="50%">
       <h3>Logic</h3>
       <ul>
         <li>Divided the pattern into outer wings and a centre section.</li>
-        <li>Created reusable <code>top_bottom()</code> and <code>center()</code> methods.</li>
-        <li>Used a square boundary around the centre.</li>
-        <li>Added four diagonal conditions to form a diamond inside the square.</li>
-        <li>Used separate dimensions to control the wings and centre.</li>
+        <li>Used reusable <code>top_bottom()</code> and <code>center()</code> methods.</li>
+        <li>Created a square boundary with four diagonal edges forming a diamond.</li>
+        <li>Used separate dimensions for the wings and centre.</li>
       </ul>
       <b>Formula:</b>
       <ul>
         <li>Midpoint: <code>mid = m / 2</code></li>
-        <li>Square boundary: <code>i == 0 || i == m-1 || j == 0 || j == m-1</code></li>
-        <li>Diamond edges: diagonal conditions using <code>i</code>, <code>j</code> and <code>mid</code>.</li>
+        <li>Square: <code>i == 0 || i == m-1 || j == 0 || j == m-1</code></li>
+        <li>Diamond: Four diagonal conditions based on <code>i</code>, <code>j</code> and <code>mid</code>.</li>
       </ul>
-      
+
+          
       Complexity: Time: O(wing × m + m²), Auxiliary Space: O(1)
       Key Takeaway:Combine square boundaries &
       diagonal conditions to create a layered rangoli pattern.
+    </td>
   </tr>
 </table>
+
