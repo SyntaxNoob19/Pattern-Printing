@@ -312,11 +312,11 @@
   <tr>
     <td align="center" valign="top">
       <img src="./screenshorts/kite.png"
-           width="250" alt="Kite Pattern">
+           width="350" alt="Kite Pattern">
     </td>
     <td align="center" valign="top">
       <img src="./screenshorts/kite-logic.png"
-           width="300" alt="Kite Pattern Logic">
+           width="350" alt="Kite Pattern Logic">
     </td>
     <td valign="top">
       <h3>Logic</h3>
