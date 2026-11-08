@@ -306,7 +306,7 @@
   </tr>
 </table
 
-## 12. Kite Pattern
+## 10. Kite Pattern
 
 <table>
   <tr>
