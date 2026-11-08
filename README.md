@@ -300,7 +300,45 @@
         <li>Middle spacing: <code>n + 2</code></li>
       </ul>
 
+
       Complexity:Time: O(n²) , Auxiliary Space: O(1)
       Key Takeaway: Combining reusable square-printing methods.
+  </tr>
+</table
+
+
+
+
+  ## 11. Square Rangoli with Diamond Pattern
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/square-rangoli-diamond.png"
+           width="250" alt="Square Rangoli with Diamond Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/square-rangoli-diamond-logic.png"
+           width="300" alt="Square Rangoli with Diamond Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into outer wings and a centre section.</li>
+        <li>Created reusable <code>top_bottom()</code> and <code>center()</code> methods.</li>
+        <li>Used a square boundary around the centre.</li>
+        <li>Added four diagonal conditions to form a diamond inside the square.</li>
+        <li>Used separate dimensions to control the wings and centre.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Midpoint: <code>mid = m / 2</code></li>
+        <li>Square boundary: <code>i == 0 || i == m-1 || j == 0 || j == m-1</code></li>
+        <li>Diamond edges: diagonal conditions using <code>i</code>, <code>j</code> and <code>mid</code>.</li>
+      </ul>
+      
+      Complexity: Time: O(wing × m + m²), Auxiliary Space: O(1)
+      Key Takeaway:Combine square boundaries &
+      diagonal conditions to create a layered rangoli pattern.
   </tr>
 </table>
