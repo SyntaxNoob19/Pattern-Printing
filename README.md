@@ -339,7 +339,6 @@
       Complexity: Time: O(wing × m + m²), Auxiliary Space: O(1)
       Key Takeaway:Combine square boundaries &
       diagonal conditions to create a layered rangoli pattern.
-    </td>
   </tr>
 </table>
 
