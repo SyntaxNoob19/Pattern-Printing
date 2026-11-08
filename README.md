@@ -322,7 +322,8 @@
       <h3>Logic</h3>
       <ul>
         <li>Divided the pattern into 3 parts.</li>
-        <li>Created the upper and lower sections using increasing and decreasing loops.</li>
+        <li>Created the upper and lower sections using increasing 
+          and decreasing loops.</li>
         <li>Used boundary and middle conditions to form the kite.</li>
         <li>Added a diagonal tail using a separate loop.</li>
       </ul>
@@ -336,7 +337,8 @@
       </ul>
 
       Complexity:Time: O(n²), Auxiliary Space: O(1)</li>
-      Key Takeaway: Combine increasing, decreasing and diagonal patterns to create a kite.
+      Key Takeaway: Combine increasing, decreasing 
+      and diagonal patterns to create a kite.
   </tr>
 </table>
 
