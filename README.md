@@ -306,7 +306,39 @@
   </tr>
 </table
 
+## 12. Kite Pattern
 
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="./screenshorts/kite.png"
+           width="250" alt="Kite Pattern">
+    </td>
+    <td align="center" valign="top">
+      <img src="./screenshorts/kite-logic.png"
+           width="300" alt="Kite Pattern Logic">
+    </td>
+    <td valign="top">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into 3 parts.</li>
+        <li>Created the upper and lower sections using increasing and decreasing loops.</li>
+        <li>Used boundary and middle conditions to form the kite.</li>
+        <li>Added a diagonal tail using a separate loop.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Leading spaces: <code>4 - i</code></li>
+        <li>Row width: <code>2 * i - 1</code></li>
+        <li>Kite boundaries: <code>j == 1 || j == 2*i-1</code></li>
+        <li>Middle line: <code>j == i</code></li>
+        <li>Tail: <code>j == i</code></li>
+      </ul>
+
+      Complexity:Time: O(n²), Auxiliary Space: O(1)</li>
+      Key Takeaway: Combine increasing, decreasing and diagonal patterns to create a kite.
+  </tr>
+</table>
 
 ## 11. Square Rangoli with Diamond
 
