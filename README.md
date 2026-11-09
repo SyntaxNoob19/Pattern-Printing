@@ -376,3 +376,47 @@
   </tr>
 </table>
 
+## 12. Five Diamond Rangoli
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="22%">
+      <img src="./screenshorts/five-diamond-rangoli.png"
+           width="180" alt="Five Diamond Rangoli">
+    </td>
+    <td align="center" valign="top" width="28%">
+      <img src="./screenshorts/five-diamond-rangoli-logic.png"
+           width="220" alt="Five Diamond Rangoli Logic">
+    </td>
+    <td valign="top" width="50%">
+      <h3>Logic</h3>
+      <ul>
+        <li>Divided the pattern into three horizontal 
+          row blocks:top, middle and bottom.</li>
+        <li>Used reusable <code>space()</code> and
+          <code>diamond()</code> methods.</li>
+        <li>Printed individual diamond rows instead of printing 
+          complete diamonds separately.</li>
+        <li>Used three diamond calls in the middle block 
+          to align the left, centre and right diamonds.</li>
+        <li>Used an offset to position the smaller diamonds 
+          relative to the larger centre diamond.</li>
+        <li>Used conditional row calculation to maintain 
+          the symmetry of each diamond.</li>
+      </ul>
+      <b>Formula:</b>
+      <ul>
+        <li>Total diamond rows: <code>2 * size - 1</code></li>
+        <li>Middle block offset: <code>m - n</code></li>
+        <li>Symmetrical row: <code>row = (i &lt;= size) ? i : (2 * size - i)</code></li>
+        <li>Stars per row: <code>2 * row - 1</code></li>
+        <li>Inner spaces: <code>size - row</code></li>
+      </ul>
+
+    Complexity: Time: O(m²), Auxiliary Space: O(1)
+    Key Takeaway: Combine reusable row-wise methods, 
+     spacing and offset calculations to create a
+     symmetrical five-diamond rangoli pattern.
+    
+  </tr>
+</table>
