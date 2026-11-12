@@ -112,7 +112,6 @@
         <li>Upright: <code>j == n-1-i || j == n-2-i</code></li>
       </ul>
       
-      Dry Run: Diagonal positions shift with each row.
       Complexity: Time O(n²), Space O(1).
       Key takeaway: Combine two hollow triangles to create an X.
 
